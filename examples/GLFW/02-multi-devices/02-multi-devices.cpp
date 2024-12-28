@@ -193,7 +193,7 @@ struct MasterToSlaveMessage {
 	bool mts_controlSignal;
 };
 
-SOCKET sockfd;
+SOCKET sock;
 struct sockaddr_in slaveAddr;
 bool updInitialized = false;
 
